@@ -1,0 +1,45 @@
+.body{
+  background-image: url("https://cdn.wallpaperhub.app/cloudcache/7/4/f/3/d/5/74f3d51cbec9db78da32e103de1b28538af1b76a.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.App{
+  width: 400px;
+  margin: 40px auto;
+}
+
+#to-do-form input{
+  background-color:rgb(85, 74, 240);
+  border: 0; 
+  color:white;
+  width: 250px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+#to-do-form input::placeholder{
+  color: white;
+  font-size: bold;
+}
+#to-do-form input:focus{
+  outline: none;
+}
+#to-do-form button{
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  border: 0;
+  background-color:rgb(241, 35, 190);
+  color: white;
+  font-size: 20px; 
+  cursor: pointer;
+  border-radius: 50%;
+}
+#to-do-form button:focus{
+  outline: none;
+}
